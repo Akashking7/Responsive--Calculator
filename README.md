@@ -6,10 +6,25 @@ using HTML | CSS | JavaScript
 A simple, responsive, and interactive calculator built using HTML, CSS, and JavaScript.
 It works directly in the browser, with no backend needed, and is safe because it does not use eval().
 
-You can see a live demo here:
+-> You can see a live demo here:
 Live link of Calculator : https://akashking7.github.io/Responsive--Calculator
 
-Features
+-> Why We Don’t Use eval()
+
+eval() runs any code in a string, which sounds easy for a calculator, but it’s dangerous:
+
+Security risk – Someone could type malicious code and hack your app.
+Crashes easily – Wrong input can break your calculator.
+Slow & hard to maintain – The app has to read and run the string every time.
+
+-> Our solution:
+
+We only allow numbers and math operators.
+We calculate safely using JavaScript logic, not eval().
+Invalid input just shows "Error".
+This keeps the calculator safe, reliable, and professional.
+
+-> Features
 -> Addition, subtraction, multiplication, and division
 -> Decimal numbers support
 -> Responsive layout — works on mobile, tablet, and desktop
