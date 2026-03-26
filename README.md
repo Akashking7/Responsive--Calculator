@@ -45,7 +45,11 @@ The HTML provides the structure with a display input and buttons.
 The CSS handles layout, colors, responsiveness, and button click animations.
 
 The JavaScript:
+
 Appends clicked buttons to the display
+
 Clears the display when C is clicked
+
 Calculates the result safely using Function() with input validation
+
 Shows “Error” if the input is invalid or calculation fails
